@@ -1,0 +1,220 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century-gothic, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	
+}
+
+/*--INDEX.HTMLHAMBURGUER EFFECT--*/
+
+.overlay {
+	visibility: hidden;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 16;
+	top: 0;
+	left: -200vh;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+  
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+  
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+/*--INDEX.HTML DESKTOP CSS--*/
+
+#header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.items {
+	margin-top: 0.5vh;
+	margin-left: 2vh;
+
+}
+.carousel-caption{
+	margin-bottom: 30vh;
+}
+.carousel .slide{
+	width: 100%;
+	height: 60vh;
+}
+
+.carousel-item img{
+margin-bottom: 10vh;
+ height: 60vh;
+ object-fit: cover;
+}
+
+.carousel-inner{
+	height: 60vh;
+}
+
+.title-contact {
+	margin-top: 1vh;
+}
+
+.activenavbar{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+	height: 100VH;
+	position: fixed;
+	width: 100%;
+	font-size: 2rem;
+	visibility: hidden;
+}
+
+.activenavbar li a {
+	
+	width: 100%;
+	text-decoration-line: NONE;
+	text-align: center;
+	position: absolute;
+	justify-content: center;
+	color: white;
+
+}
+
+.header-container{
+	z-index: 15;
+	color: black;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	height: 6vh;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.title{
+	cursor: pointer;
+	margin-top: 2vh;
+	background-color: none;
+	font-size: 1.2rem;
+}
+
+.title-contact{
+	margin-top: 2vh;
+	background-color: none;
+	margin-right: 4vh;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+.title-contact a{
+	text-decoration: none;
+	color: black;
+}
+
+.title-menu{
+	background-color: none;
+	margin-left: 4vh;
+	font-size: 1.2rem;
+}
+
+.image-container-two video {
+	margin-top: 6vh;
+	height: 94vh;
+	width: 100%;
+	object-fit: cover;
+	
+}
+
+.text-container {
+	
+	height: 30vh;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.title-tecnic{
+	line-height: 30vh;
+	vertical-align: middle;
+}
+
+.interactive-tecnic {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: blue;
+	height: 65vh;
+	width: 100%;
+}
+
+.interactive-tecnic p{
+	margin-top: 30vh;
+	vertical-align: middle;
+	width: 50%;
+}
+
+
+
+
+
+.links-tecnics button{
+	background: none;
+	border: none;
+	background-color: red;
+	line-height: 5vh;
+}
+
+.links-tecnics button:hover{
+	background: none;
+	border: none;
+	background-color: blue;
+}
+
+.rights{
+	text-align: center;
+}
+
+/* --INDEX.HTML MOBILE CSS--*/
+
+@media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
+	}
+  }
