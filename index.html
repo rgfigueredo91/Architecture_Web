@@ -24,24 +24,25 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-		</head>
+	</head>
 		<body>
             <!--  navbar effect-->
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
                   <a href="#tecnic" onclick="closeNav()">FORTALEZAS</a>
-                  <a href="#home" onclick="closeNav()">SERVICIOS</a>
+                  <a href="#services" onclick="closeNav()">SERVICIOS</a>
                   <a href="#outsourcing" onclick="closeNav()">OUTSOURCING</a>
                   <a href="#">EQUIPO</a>
+                  <a href="#">CONTACTO</a>
                 </div>
             </div>
             <header id="header"> <!-- seccion header imagen-->
                 <div class="header-container" id="navbar-noboots">
                     <div class="subheader-container" >
                             <div class="items">
-                                <a  onclick="openNav()" id="title-menu">menu</a>
-                                   <!--<span onclick="openNav()">&#9776;</span>-->
+                                 <!--<a  onclick="openNav()" id="title-menu">menu</a>-->
+                                 <span onclick="openNav()">&#9776;</span>
                             </div>
                     </div>
                     <div class="subheader-container">
@@ -73,7 +74,7 @@
                     
                 </div>
                 <div class="fortalezas">   
-                    <div class="text-fortaleza"><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    <div class="text-fortaleza"><p> Aca un poco de historia creo yo ....................text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
@@ -118,8 +119,110 @@
                 </div>
             </section>
 
+            <section id="services">
+                <div id="localesComerciales" class="overlayTwo">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavTwo()">&times;</a>
+                    <div class="overlay-contentTwo">
+                        <p class="changingText" id="changingTextid">
+                            Aca es un texto que se cambia
+                        </p>
+                        <img src="img/13-permiso de construccion.jpg" class="imgToChange" alt="Permisos de construccion">
+                    </div>
+                    <div class="overlaylinks">
+                            <p onclick="openNavTwoComerciosOnly()">Locales comerciales y/o industriales</p>
+                            <p onclick="openNavTwoBromatologOnly()">Bromatológica</p>
+                            <p>Bomberos</p>
+                            <p>SIME</p>
+                    </div>
+                   
+                </div>
 
-                <!-- Footer -->
+                <div class="general-container-services">
+                    <div class="box-container1">
+                            <div class="habilitaciones">
+                                <div class="img1" id="imagen2">
+                                    <p class="texthabilitaciones">HABILITACIONES</p>
+                                        <div class="fadedbox">
+                                            <ul class="list-habilitaciones">
+                                                <li class="services-title services-text" onclick="openNavTwoComercios()"> Locales comerciales y/o industriales </li>
+                                                <li class="services-title services-text" onclick="openNavTwoBromatolog()"> Bromatológica </li>
+                                                <li class="services-title services-text"> Bomberos </li>
+                                                <li class="services-title services-text"> Servicios de Instalaciones Mecánicas y Eléctricas </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="habilitaciones">
+                                <div class="img1" id="imagen2">
+                                    <p class="texthabilitaciones">CERTIFICADOS</p>
+                                        <div class="fadedbox">
+                                            <ul class="list-habilitaciones">
+                                                <li class="services-title services-text"> Antiguedad de las construcciones </li>
+                                                <li class="services-title services-text"> Especial de BPS </li>
+                                                <li class="services-title services-text"> Incombustibilidad </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="habilitaciones">
+                                <div class="img1" id="imagen2">
+                                    <p class="texthabilitaciones">REGULARIZACIONES</p>
+                                        <div class="fadedbox">
+                                            <ul class="list-habilitaciones">
+                                                <li class="services-title services-text"> Obra ante la Intendencia </li>
+                                                <li class="services-title services-text"> Obra ante BPS </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="box-container2">
+                        <div class="habilitaciones">
+                            <div class="img1" id="imagen2">
+                                <p class="texthabilitaciones">INFORMES</p>
+                                    <div class="fadedbox">
+                                        <ul class="list-habilitaciones">
+                                            <li class="services-title services-text"> Informe Técnico Profesional </li>
+                                            <li class="services-title services-text"> Inspección ocular </li>
+                                            <li class="services-title services-text"> Asesoramiento en compra de inmuebles </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="habilitaciones">
+                            <div class="img1" id="imagen2">
+                                <p class="texthabilitaciones">PERMISOS</p>
+                                    <div class="fadedbox">
+                                        <ul class="list-habilitaciones">
+                                            <li class="services-title services-text"> Permiso de Construcción </li>
+                                            <li class="services-title services-text"> Permiso de Demolición </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="habilitaciones">
+                            <div class="img1" id="imagen2">
+                                <p class="texthabilitaciones">DECLARACIONES</p>
+                                    <div class="fadedbox">
+                                        <ul class="list-habilitaciones">
+                                            <li class="services-title services-text"> Declaración Jurada de Caracterización Urbana </li>        
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+
+                <!-- Footer 
             <section id="footer">
                     <div class="footer container">
                         <div class="social-icon">
@@ -127,7 +230,7 @@
                         </div>
                         <p class="rights">© 2022 Arquitectura en Regla. Todos los derechos reservados</p>
                     </div>
-            </section>
+            </section>-->
                 <!-- End Footer -->
 
             <script type="text/javascript" src="js/jquery.js"></script> 

@@ -8,7 +8,6 @@
 
 html {
 	scroll-behavior: smooth;
-	
 }
 
 /*--INDEX.HTMLHAMBURGUER EFFECT--*/
@@ -21,7 +20,6 @@ html {
 	z-index: 16;
 	top: 0;
 	left: -200vh;
-
 	background-color: rgba(0,0,0, 0.9);
 	overflow-x: hidden;
 	transition: 0.5s;
@@ -38,7 +36,7 @@ html {
 .overlay a {
 	padding: 8px;
 	text-decoration: none;
-	font-size: 36px;
+	font-size: 1.7rem;
 	color: #818181;
 	display: block;
 	transition: 0.3s;
@@ -52,7 +50,7 @@ html {
 	position: absolute;
 	top: 20px;
 	right: 45px;
-	font-size: 60px;
+	font-size: 3rem;
 }
 
 /*--INDEX.HTML DESKTOP CSS--*/
@@ -80,6 +78,7 @@ html {
 	text-align: center;
 
 }
+
 .real-title h5{
 	height: 10rem;
 	padding-right: 2rem;
@@ -89,7 +88,6 @@ html {
 	position: absolute;
 	margin-top: 50vh;
 	width: 100%;
-
 }
 
 .angle-down {
@@ -109,11 +107,7 @@ html {
 	-moz-animation: bounce 2000ms infinite;
 	-o-animation: bounce 2000ms infinite;
 	-ms-animation: bounce 2000ms infinite;
-	
 }
-
-
-
 
 .title-contact {
 	margin-top: 1vh;
@@ -132,14 +126,12 @@ html {
 }
 
 .activenavbar li a {
-	
 	width: 100%;
 	text-decoration-line: NONE;
 	text-align: center;
 	position: absolute;
 	justify-content: center;
 	color: white;
-
 }
 
 .image-container-two img {
@@ -161,10 +153,10 @@ html {
 	font-weight: bold;
 	cursor: pointer;
 	font-size: 30px;
-	line-height: 6vh;
 }
+
 .items{
-	margin-top: 1vh;
+	margin-top: 0.3vh;
 }
 
 .items a{
@@ -176,18 +168,18 @@ html {
 	font-size: 1.2rem;
 	text-decoration: none;
 }
+
 .text2-fortaleza{
 	text-align: center;
 	width: 40%;
-	
 	display: flex;
 	flex-direction: column;
 }
+
 .subtitle-fortaleza p{
 	margin-top: 10vh;
 	font-weight: 900;
 	line-height: 2rem;
-	
 	letter-spacing: .3rem;
 	font-family: "Source Sans Pro";
 }
@@ -195,19 +187,15 @@ html {
 .fortaleza-list{
 	margin-left: 30%;
 	width: 40%;
-	
 }
 
 .fortaleza-list ul li{
 	line-height: 2rem;
 	text-align: left;
 	list-style-type: none;
-
 }
 
-
 .fortalezas{
-	
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -217,14 +205,9 @@ html {
 }
 
 .text-fortaleza {
-
 	width: 40%;
 	vertical-align: middle;
-
 	text-align: center;
-
-
-	
 }
 
 .text-fortaleza p{
@@ -233,31 +216,23 @@ html {
 	margin-top: 10vh;
 	font-weight: 401;
 	line-height: 2rem;
-	
 	letter-spacing: .15rem;
 	font-family: "Source Sans Pro";
 }
-
 
 .header-container{
 	z-index: 15;
 	color: white;
 	background-color: none;
-	
 	width: 100%;
 	position: fixed;
 	height: 6vh;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
-	
 }
 
-
-
-
 .title-contact{
-	
 	background-color: none;
 	font-size: 1.2rem;
 	text-decoration: none;
@@ -290,11 +265,209 @@ html {
 	font-family: "Source Sans Pro";
 }
 
-
-
 .rights{
 	text-align: center;
 }
+
+.general-container-services {
+	margin-top: 6VH;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 94vh;
+}
+
+.box-container1 {
+	height: 46vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.box-container2 {
+	margin-top: 4vh;
+	height: 46vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.habilitaciones {
+	vertical-align: middle;
+	width: 30%;
+	background-color: rgb(237, 237, 237);
+}
+
+
+.list-habilitaciones {
+padding-left: 0;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.list-habilitaciones li{
+	margin-bottom: 0px;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+.texthabilitaciones {
+	margin-top: 20VH;
+	font-size: 1.3REM;
+}
+
+
+.imgToChange{
+	width: 40%;
+	height: auto;
+}
+
+
+.overlaylinks{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+}
+
+.overlaylinks p{
+	cursor: pointer;
+}
+
+.overlayTwo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #0e0e0e;
+	opacity: .9;
+	background-size: cover;
+	visibility: hidden;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 16;
+	top: -200;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-contentTwo {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	
+	width: 100%;
+	text-align: center;
+
+	
+}
+
+.overlay-contentTwo p{
+	width: 45%;
+	justify-content: center;
+	text-align: justify;
+}
+
+.overlay-contentTwo img{
+	width: 50%;
+}
+  
+.overlayTwo a {
+	
+	text-decoration: none;
+	font-size: 1rem;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlayTwo p {
+	margin-bottom: 0;
+	text-decoration: none;
+	font-size: 1rem;
+	color: #e1e1e1;
+	display: block;
+	transition: 0.3s;
+}
+  
+.overlayTwo a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlayTwo .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 3rem;
+}
+
+
+
+
+.img1 {
+	width: 100%;
+	height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;     
+}
+
+.img1 .fadedbox {
+    background-color: #0e0e0e;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img1:hover .fadedbox { opacity: 0.9; 
+}
+
+.img1 .services-text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+}
+
+.img1 .services-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+.img1:hover .services-title,
+.img1:focus .services-title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+
+
+
+
 
 /* --INDEX.HTML MOBILE CSS--*/
 
