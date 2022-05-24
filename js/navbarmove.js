@@ -9,14 +9,14 @@ let lastScrollTop = 100;
 					navbar.style.background = "none";
 					navbar.style.color = "white";
 					contact.style.color = "white";
-					menu.style.color = "white";
+					
 					
 					
 				} else {
 					navbar.style.background = "white";
 					navbar.style.color = "black";
 					contact.style.color = "black";
-					menu.style.color = "black";
+					
 					
 					
 				}

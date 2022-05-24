@@ -1,0 +1,23 @@
+.footer-container{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(28, 28, 28);
+    
+    height: 35vh;
+}
+
+.footerName{
+    background-color: red;
+}
+
+.footerName p{
+    color: white;
+}
+
+.listFooter {
+    background-color: blue;
+}
+.listFooter li{
+    color: white ;
+}

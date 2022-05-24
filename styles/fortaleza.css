@@ -1,0 +1,75 @@
+.text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f0f0f0;
+	height: 40vh;
+	text-align: center;
+	font-size: 1.15rem;
+}
+
+.text-container p{
+	font-weight: 401;
+	line-height: 2rem;
+	margin-left: 25%;
+	text-align: center;
+	width: 50%;
+	vertical-align: middle;
+	color: #555455;
+	letter-spacing: .15rem;
+	font-family: "Source Sans Pro";
+}
+
+
+
+.text2-fortaleza{
+	text-align: center;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.subtitle-fortaleza p{
+	margin-top: 10vh;
+	font-weight: 900;
+	line-height: 2rem;
+	letter-spacing: .3rem;
+	font-family: "Source Sans Pro";
+}
+
+.fortaleza-list{
+	margin-left: 30%;
+	width: 40%;
+}
+
+.fortaleza-list ul li{
+	line-height: 2rem;
+	text-align: left;
+	list-style-type: none;
+}
+
+.fortalezas{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 60vh;
+}
+
+.text-fortaleza {
+	height: 100%;
+	width: 50%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.text-fortaleza p{
+	margin-left: 10vh;
+	text-align: justify;
+	margin-top: 10vh;
+	font-weight: 401;
+	line-height: 1.8rem;
+	letter-spacing: .15rem;
+	font-family: "Source Sans Pro";
+}

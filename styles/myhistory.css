@@ -1,0 +1,56 @@
+.myhistorycontainer {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.myhistoryresume {
+	background-color: #f0f0f0;
+	margin-bottom: 1vh;
+	height: 85vh;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+}		
+
+.historyparagraph{
+	width: 40%;
+}
+
+.historyparagraph p{
+	margin-top: 20vh;
+	text-align: center;
+} 
+
+.historyimage img{
+	margin-top: 5vh;
+	height: 50vh;
+}
+
+
+
+.myhistorycontainer3{
+	margin-bottom: 1vh;
+	overflow-y: hidden;
+	height: 15vh;
+	background-color: #b1cbee;
+}
+
+.historyContainer3p p{
+	letter-spacing: 1rem;
+	font-size: 1.5rem;
+	color: black;
+	cursor: pointer;
+	width: 40%;
+	margin-left: 30%;
+	text-align: center;
+	margin-top: 6vh;
+}
+
+.historyContainer3p p:hover{
+	transform: scale(1.03);
+	color: #707070;
+	transition: ease-in-out .3s;
+}
+
