@@ -57,6 +57,7 @@ html {
 /*--INDEX.HTML DESKTOP CSS--*/
 
 #header{
+	overflow-y: hidden;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -110,9 +111,6 @@ html {
 	-ms-animation: bounce 2000ms infinite;
 }
 
-.title-contact {
-	margin-top: 1vh;
-}
 
 .activenavbar{
 	display: flex;
@@ -185,12 +183,15 @@ html {
 }
 
 .title-contact{
+
+	margin-top: 1vh;
 	background-color: none;
 	font-size: 1.2rem;
 	text-decoration: none;
 }
 
 .title-contact a{
+
 	text-decoration: none;
 	color: white;
 }
@@ -203,19 +204,27 @@ html {
 
 
 
+/*--tablet responsive--*/
+@media only screen and (max-width: 1200px) and (min-width: 700px)  {
 
-
-
-
-
-
-/* --INDEX.HTML MOBILE CSS--*/
-
-@media screen and (max-height: 450px) {
 	.overlay a {font-size: 20px}
 	.overlay .closebtn {
 	font-size: 40px;
 	top: 15px;
 	right: 35px;
+
 	}
-  }
+
+	}
+	
+	
+	
+	
+	/*--mobile responsive--*/
+	
+@media only screen and (max-width: 700px) {
+
+
+	
+	}	
+

@@ -5,10 +5,11 @@
 	background-color: #f0f0f0;
 	height: 40vh;
 	text-align: center;
-	font-size: 1.15rem;
+
 }
 
 .text-container p{
+		font-size: 1.15rem;
 	font-weight: 401;
 	line-height: 2rem;
 	margin-left: 25%;
@@ -22,7 +23,7 @@
 
 
 
-.text2-fortaleza{
+.text2-fortaleza {
 	text-align: center;
 	width: 40%;
 	display: flex;
@@ -73,3 +74,82 @@
 	letter-spacing: .15rem;
 	font-family: "Source Sans Pro";
 }
+
+	
+	/*--tablet responsive--*/
+@media only screen and (max-width: 1200px) and (min-width: 700px)  {
+
+	.text-container p{
+		font-size: 1rem;
+	font-weight: 401;
+	line-height: 2rem;
+	margin-left: 25%;
+	text-align: center;
+	width: 50%;
+	vertical-align: middle;
+	color: #555455;
+	letter-spacing: .15rem;
+	font-family: "Source Sans Pro";
+}
+
+	.text-fortaleza {
+		height: 100%;
+		width: 55%;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.text-fortaleza p{
+		font-size: 1rem;
+		margin-left: 5vh;
+		text-align: justify;
+		margin-top: 10vh;
+		font-weight: 401;
+		line-height: 1.1;
+		letter-spacing: .152rem;
+		line-height: 1.3rem;
+
+		font-family: "Source Sans Pro";
+	}
+
+	.subtitle-fortaleza p{
+		margin-top: 10vh;
+		font-weight: 900;
+		line-height: 2rem;
+		letter-spacing: .16rem;
+		font-family: "Source Sans Pro";
+	}
+
+	.text2-fortaleza {
+		text-align: center;
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	.fortaleza-list{
+		margin-left: 15%;
+		width: 100%;
+	}
+	
+	.fortaleza-list ul li{
+		font-size: 1rem;
+		line-height: 2rem;
+		text-align: left;
+		list-style-type: none;
+	}
+
+
+
+	}
+	
+	
+	
+	
+	/*--mobile responsive--*/
+	
+@media only screen and (max-width: 700px) {
+
+
+	
+	}	
