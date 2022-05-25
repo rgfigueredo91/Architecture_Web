@@ -29,7 +29,12 @@
 	flex-direction: column;
 }
 
+.subtitle-outsourcing{
+	overflow-y: hidden;
+}
+
 .subtitle-outsourcing p{
+	
 	margin-top: 10vh;
 	font-weight: 900;
 	line-height: 2rem;
@@ -38,6 +43,7 @@
 }
 
 .outsourcing-list{
+	overflow-y: hidden;
 	margin-left: 30%;
 	width: 40%;
 }
@@ -80,7 +86,7 @@
 
 
 	/*--tablet responsive--*/
-	@media only screen and (max-width: 1200px) and (min-width: 700px)  {
+	@media only screen and (max-width: 1500px) and (min-width: 700px)  {
 
 		.text-outsourcing-container{
 			display: flex;
@@ -104,6 +110,22 @@
 		letter-spacing: .1rem;
 		font-family: "Source Sans Pro";
 	}
+
+	.text-outsourcing {
+		margin-top: 5vh;
+		overflow-y: hidden;
+
+		height: 90%;
+		width: 65%;
+		
+	}
+
+	.text-outsourcing p{
+	
+		margin-top: 1vh;
+	}
+
+	
 	
 
 	}

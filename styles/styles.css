@@ -67,6 +67,11 @@ html {
 .header-container{
 	transition: .4s
 }
+
+.subheader-container{
+	overflow-y: hidden;
+
+}
 .real-title h1{
 	height: 10rem;
 	letter-spacing: 3REM;
@@ -149,12 +154,14 @@ html {
 }
 
 .items span{
+	overflow-y: hidden;
 	font-weight: bold;
 	cursor: pointer;
 	font-size: 30px;
 }
 
 .items{
+	
 	margin-top: 0.3vh;
 }
 
