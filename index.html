@@ -21,7 +21,8 @@
             <link rel="stylesheet" type="text/css" href="styles/footer.css"/>
             <link rel="stylesheet" type="text/css" href="styles/animation.css"/>
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+       
+           
           
  
 			<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css"/>
@@ -37,7 +38,7 @@
  
      
           
-
+   
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
              
@@ -143,11 +144,20 @@
             <section id="services">
                 <div id="localesComerciales" class="overlayTwo">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNavTwo()">&times;</a>
-                    <div class="overlay-contentTwo">
-                        <p class="changingText" id="changingTextid">
+                    <div class="overlay-contentTwo" id="overlay-contentTwoId">
+                        <h2 class="changingTitle">
+                            Aca un titulo
+                        </h2>
+                        <h3 class="changingTitle">
+                            Aca un titulo
+                        </h3>
+                        <p class="changingText">
                             Aca es un texto que se cambia
                         </p>
-                        <img src="img/13-permiso de construccion.jpg" class="imgToChange" alt="Permisos de construccion">
+                        <p class="changingText">
+                            Aca es un texto que se cambia
+                        </p>
+                        
                     </div>
                     <div class="overlaylinks">
                             <p onclick="openNavTwoComerciosOnly()">Locales comerciales y/o industriales</p>
@@ -307,73 +317,49 @@
                             <div  class="historyimage slide-in from-right">
                                 <img src="img/mypic.jpeg" alt="">
                             </div>
-
                         </div>
-
+                    </div>
                      <div class="myhistorycontainer2">
-                        <div id="base_wrapper">
-                            <h2>
-                              Base
-                            </h2>
-                            <div class="goto-controls">
-                              Go to slide: <input type="text" value="3"> <button class="button">Go</button>
+                        <div class="carosuel-container">
+                            <div class="slideshow-container slide-in from-right">
+                                <div class="comments"> 
+                                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus."</p>
+                                        <a href="" target="_blank"> Arq. Rosana Frione </a> 
+                                </div>
+                                
+                                <div class="comments"> 
+                                        <p>"standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has".</p> 
+                                        <a href="" target="_blank"> Arq. Pierina no se que </a>      
+                                </div>
+
+                                <div class="comments "> 
+                                        <p>"survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem."</p>
+                                        <a href="" target="_blank"> Ing. Matias Marichal</a> 
+                                </div>        
+
+                                <div class="comments"> 
+                                        <p>"Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</p>
+                                        <a href="" target="_blank"> Sr. Matias De Angelis </a> 
+                                </div> 
+                                <div class="arrowsprevnext"> 
+                                    <a class="prev" onclick="plusSlides(-1)">❮</a>   
+                                </div>
+                                <div class="arrowsprevnext"> 
+                                    <a class="next" onclick="plusSlides(1)">❯</a>
+                               </div>
                             </div>
-                            <div class="base" id="base">
-                           
-                              
-                              <div class="item">
-                                <div class="img img-3">
-                                  <a href="">Duis facilisis, ante ac imperdiet hendrerit, metus nisi eleifend nulla, et pretium nisl quam et leo<br/>
-                                    In sem ligula, molestie ac interdum identum non, ornare in nulla.
-                                  <h6>Jessie Pinkman  |  MDM Inc.</h6></a>
-                                </div>
-                                <p>
-                                  Alias rem, ab impedit recusandae repellat tempore.
-                                </p>
-                              </div>
+                      
+                    </div>
+                       
 
-                              <div class="item">
-                                <div class="img img-3">
-                                  <a href="">Duis facilisis, ante ac imperdiet hendrerit, metus nisi eleifend nulla, et pretium nisl quam et leo<br/>
-                                    In sem ligula, molestie ac interdum identum non, ornare in nulla.
-                                  <h6>Jessie Pinkman  |  MDM Inc.</h6></a>
-                                </div>
-                                <p>
-                                  Alias rem, ab impedit recusandae repellat tempore.
-                                </p>
-                              </div>
-
-                              <div class="item">
-                                <div class="img img-3">
-                                  <a href="">Duis facilisis, ante ac imperdiet hendrerit, metus nisi eleifend nulla, et pretium nisl quam et leo<br/>
-                                    In sem ligula, molestie ac interdum identum non, ornare in nulla.
-                                  <h6>Jessie Pinkman  |  MDM Inc.</h6></a>
-                                </div>
-                                <p>
-                                  Alias rem, ab impedit recusandae repellat tempore.
-                                </p>
-                              </div>
-                            
-                            
-                             
-                              
-                            </div>
-                          </div>
-                     </div>
-                        
-
-                    
+                       
                         <div class="myhistorycontainer3">
                             <div class="historyContainer3p ">
-                                <p onclick="openNav()" class="textStartWorkingTogether"><strong>COMENCEMOS A TRABAJAR</strong></p>
+                                <p onclick="openNav()" class="textStartWorkingTogether slide-in from-left"><strong>COMENCEMOS A TRABAJAR</strong></p>
                             </div>
-
                         </div>
-               
                     </div>
-
-
-            </section>
+                </section>
 
 
               
@@ -405,7 +391,7 @@
                 <!-- End Footer -->
 
             
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+            <script src="js/reviews.js"></script>
             <script src="js/app.js"></script>
             <script src="js/navbarmove.js"></script><!--navbar move--> 
             <script src="js/animation.js"></script>
