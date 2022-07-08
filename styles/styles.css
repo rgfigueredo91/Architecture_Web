@@ -140,7 +140,7 @@ html {
 
 .image-container-two img {
 	height: 100vh;
-	width: 100%;
+	
 }
 
 .bg_overlay {
@@ -162,7 +162,7 @@ html {
 
 .items{
 	
-	margin-top: 0.3vh;
+	margin-top: 6px;
 }
 
 .items a{
@@ -183,7 +183,7 @@ html {
 	background-color: none;
 	width: 100%;
 	position: fixed;
-	height: 6vh;
+	height: 60px;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
@@ -191,9 +191,9 @@ html {
 
 .title-contact{
 
-	margin-top: 1vh;
+	margin-top: 12px;
 	background-color: none;
-	font-size: 1.2rem;
+	font-size: 20px;
 	text-decoration: none;
 }
 

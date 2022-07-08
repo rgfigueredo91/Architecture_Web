@@ -9,9 +9,9 @@
 }
 
 .text-container p{
-		font-size: 1.15rem;
+	font-size: 18px;
 	font-weight: 401;
-	line-height: 2rem;
+	line-height: 30px;
 	margin-left: 25%;
 	text-align: center;
 	width: 50%;
@@ -33,20 +33,29 @@
 .subtitle-fortaleza p{
 	margin-top: 10vh;
 	font-weight: 900;
-	line-height: 2rem;
-	letter-spacing: .3rem;
+	line-height: 30px;
+	letter-spacing: 2px;
 	font-family: "Source Sans Pro";
 }
 
 .fortaleza-list{
-	margin-left: 30%;
-	width: 40%;
+	
+	width: 100%;
 }
 
 .fortaleza-list ul li{
+	margin-right: 5%;
 	line-height: 2rem;
-	text-align: left;
+	text-align: center;
 	list-style-type: none;
+}
+
+.subtitle-fortaleza p{
+	margin-top: 10vh;
+	font-weight: 900;
+	line-height: 2rem;
+	letter-spacing: .16rem;
+	font-family: "Source Sans Pro";
 }
 
 .fortalezas{
@@ -66,7 +75,8 @@
 }
 
 .text-fortaleza p{
-	margin-left: 10vh;
+	font-size: 15px;
+	margin-left: 15%;
 	text-align: justify;
 	margin-top: 10vh;
 	font-weight: 401;
@@ -77,10 +87,10 @@
 
 	
 	/*--tablet responsive--*/
-@media only screen and (max-width: 1200px) and (min-width: 700px)  {
+@media only screen and (max-width: 1200px) and (min-width: 800px)  {
 
 	.text-container p{
-		font-size: 1rem;
+	font-size: 1rem;
 	font-weight: 401;
 	line-height: 2rem;
 	margin-left: 25%;
@@ -99,14 +109,13 @@
 		text-align: center;
 	}
 	.text-fortaleza p{
-		font-size: 1rem;
+		font-size: 17px;
 		margin-left: 5vh;
 		text-align: justify;
 		margin-top: 10vh;
 		font-weight: 401;
-		line-height: 1.1;
-		letter-spacing: .152rem;
-		line-height: 1.3rem;
+		line-height: 1.8rem;
+		letter-spacing: .05rem;
 
 		font-family: "Source Sans Pro";
 	}
@@ -127,17 +136,24 @@
 	
 	}
 
-	.fortaleza-list{
-		margin-left: 15%;
-		width: 100%;
-	}
+
 	
 	.fortaleza-list ul li{
 		font-size: 1rem;
 		line-height: 2rem;
-		text-align: left;
+		text-align: center;
 		list-style-type: none;
+		margin-right: 5%;
 	}
+
+	
+
+	.fortaleza-list{
+		margin-left: 0;
+		width: 100%;
+}
+
+
 
 
 
@@ -148,7 +164,73 @@
 	
 	/*--mobile responsive--*/
 	
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+
+	
+.text-container p{
+
+	margin-left: 0px;
+	
+	width: auto;
+
+}
+
+.fortalezas{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: auto;
+}
+
+.fortaleza-list{
+	margin-left: 0px;
+	width: auto;
+}
+
+.text-fortaleza {
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.text-fortaleza p{
+	font-size: 17px;
+	margin-left: 5%;
+	width: 90%;
+	text-align: justify;
+	margin-top: 30px;
+	font-weight: 401;
+	line-height: 1.4rem;
+	letter-spacing: .05rem;
+	font-family: "Source Sans Pro";
+}
+.text2-fortaleza {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.fortaleza-list ul li{
+	margin-right: 10%;
+	font-size: 1rem;
+	line-height: 2rem;
+	text-align: center;
+	list-style-type: none;
+}
+
+.subtitle-fortaleza p{
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 900;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-family: "Source Sans Pro";
+}
 
 
 	
