@@ -9,7 +9,7 @@
 }
 
 .text-container p{
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-weight: 401;
 	line-height: 30px;
 	margin-left: 25%;
@@ -30,21 +30,15 @@
 	flex-direction: column;
 }
 
-.subtitle-fortaleza p{
-	margin-top: 10vh;
-	font-weight: 900;
-	line-height: 30px;
-	letter-spacing: 2px;
-	font-family: "Source Sans Pro";
-}
+
 
 .fortaleza-list{
-	
+	margin-top: 20px;
 	width: 100%;
 }
 
 .fortaleza-list ul li{
-	margin-right: 5%;
+
 	line-height: 2rem;
 	text-align: center;
 	list-style-type: none;
@@ -53,8 +47,8 @@
 .subtitle-fortaleza p{
 	margin-top: 10vh;
 	font-weight: 900;
-	line-height: 2rem;
-	letter-spacing: .16rem;
+	
+	
 	font-family: "Source Sans Pro";
 }
 
@@ -75,13 +69,12 @@
 }
 
 .text-fortaleza p{
-	font-size: 15px;
+	font-size: 1rem;
 	margin-left: 15%;
 	text-align: justify;
 	margin-top: 10vh;
 	font-weight: 401;
 	line-height: 1.8rem;
-	letter-spacing: .15rem;
 	font-family: "Source Sans Pro";
 }
 
@@ -89,70 +82,64 @@
 	/*--tablet responsive--*/
 @media only screen and (max-width: 1200px) and (min-width: 800px)  {
 
+
 	.text-container p{
-	font-size: 1rem;
-	font-weight: 401;
-	line-height: 2rem;
-	margin-left: 25%;
-	text-align: center;
-	width: 50%;
-	vertical-align: middle;
-	color: #555455;
-	letter-spacing: .15rem;
-	font-family: "Source Sans Pro";
-}
+		font-size: .9rem;
+		width: 70%;
+		margin-left: 15%;
+		
+	}
 
 	.text-fortaleza {
 		height: 100%;
-		width: 55%;
+		width: 70%;
 		vertical-align: middle;
 		text-align: center;
 	}
+	
+	
+
 	.text-fortaleza p{
-		font-size: 17px;
-		margin-left: 5vh;
+		font-size: .9rem;
+		margin-left: 10%;
 		text-align: justify;
 		margin-top: 10vh;
 		font-weight: 401;
 		line-height: 1.8rem;
-		letter-spacing: .05rem;
-
 		font-family: "Source Sans Pro";
 	}
 
-	.subtitle-fortaleza p{
-		margin-top: 10vh;
-		font-weight: 900;
-		line-height: 2rem;
-		letter-spacing: .16rem;
-		font-family: "Source Sans Pro";
-	}
-
-	.text2-fortaleza {
-		text-align: center;
-		width: 40%;
-		display: flex;
-		flex-direction: column;
 	
-	}
-
-
-	
-	.fortaleza-list ul li{
-		font-size: 1rem;
-		line-height: 2rem;
-		text-align: center;
-		list-style-type: none;
-		margin-right: 5%;
-	}
-
-	
-
-	.fortaleza-list{
-		margin-left: 0;
-		width: 100%;
+.text2-fortaleza {
+	text-align: center;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
 }
 
+.subtitle-fortaleza{
+	margin-top: 20px;
+	font-weight: 900;
+
+	
+	font-family: "Source Sans Pro";
+}
+
+
+.subtitle-fortaleza p{
+	margin-top: 0;
+	font-weight: 900;
+
+	
+	font-family: "Source Sans Pro";
+}
+
+.fortaleza-list ul li{
+
+	line-height: 1.55rem;
+	text-align: center;
+	list-style-type: none;
+}
 
 
 
@@ -166,12 +153,17 @@
 	
 @media only screen and (max-width: 800px) {
 
+	.text-container {
 	
+		width: 100%;
+	
+	}
 .text-container p{
-
-	margin-left: 0px;
 	
-	width: auto;
+	font-size: 17px;
+	margin-left: 0px;
+	margin-left: 5%;
+	width: 90%;
 
 }
 
@@ -197,7 +189,7 @@
 }
 
 .text-fortaleza p{
-	font-size: 17px;
+	font-size: 15px;
 	margin-left: 5%;
 	width: 90%;
 	text-align: justify;
@@ -215,8 +207,12 @@
 
 }
 
+.fortaleza-list{
+	margin-top: 15px;
+}
+
 .fortaleza-list ul li{
-	margin-right: 10%;
+	
 	font-size: 1rem;
 	line-height: 2rem;
 	text-align: center;
@@ -228,7 +224,7 @@
 	margin-top: 50px;
 	font-weight: 900;
 	line-height: 30px;
-	letter-spacing: 2px;
+
 	font-family: "Source Sans Pro";
 }
 

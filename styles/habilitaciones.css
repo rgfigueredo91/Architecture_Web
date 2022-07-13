@@ -8,7 +8,7 @@
 }
 
 .box-container0{
-	height: 6vh;
+	height: 3vh;
 }
 .box-container1 {
 	height: 40vh;
@@ -26,7 +26,7 @@
 .habilitaciones {
 	vertical-align: middle;
 	width: 30%;
-	height: 100%;
+	height: 40vh;
 	background-color: rgb(237, 237, 237);
 }
 
@@ -49,16 +49,29 @@
 }
 
 .texthabilitaciones {
-	margin-top: 170px;
-	height: auto;
+	text-align: center;
+	height: 100%;
+
 
 	vertical-align: center;
 	text-align: center;
-	letter-spacing: .4rem;
+
 	color: rgb(76, 76, 76);
 
 	font-size: 1.3REM;
 }
+
+
+.texthabilitaciones p {
+	letter-spacing: .4rem;
+	font-weight: bold;
+	vertical-align: center;
+	text-align: center;
+	width: 100%;
+	margin-top: 18vh;
+	height: auto;
+}
+
 
 .changingTitle{
 	width: 100%;
@@ -222,53 +235,21 @@
 	@media only screen and (max-width: 900px) and (min-width: 720px)  {
 
 		
-.general-container-services {
-	
-	
-	height: 70vh;
-}
-
-.habilitaciones {
-	vertical-align: middle;
-	width: 250px;
-	height: auto;
-	background-color: rgb(237, 237, 237);
-}
-
-
-
-		.box-container1 {
-			height: 25vh;
-			display: flex;
-			justify-content: space-evenly;
-		}
-
-		
-		.box-container2 {
-			height: 25vh;
-			display: flex;
-			justify-content: space-evenly;
-		}
-		.texthabilitaciones {
-			margin-top: 10vh;
-	height: 100%;
-			text-align: center;
-			letter-spacing: .1rem;
-			color: rgb(76, 76, 76);
-			margin-bottom: 0;
-			font-size: 1REM;
-		}
-
-		.texthabilitaciones p{
-			
-			height: auto;
+		.texthabilitaciones p {
+			font-size: 1.2rem;
+			letter-spacing: .15rem;
+			font-weight: bold;
 			vertical-align: center;
 			text-align: center;
-			letter-spacing: .4rem;
-			color: rgb(76, 76, 76);
-			font-size: 1.8REM;
+			width: 100%;
+			margin-top: 18vh;
+			height: auto;
 		}
 
+
+
+		
+		
 	
 
 		.img1 .fadedbox {
@@ -316,7 +297,7 @@
 	
 		margin-top: 0px;
 			flex-direction: column;
-			height: 1000px;
+			height: 900px;
 			display: flex;
 			justify-content: space-around;
 		}
@@ -324,7 +305,7 @@
 		.img1 {
 	
 			width: 100%;
-			height: 270px;
+		height: auto;
 			position: relative;
 			overflow: hidden;
 			text-align: center;     
@@ -344,34 +325,20 @@
 			
 		}
 
-		.texthabilitaciones {
+		
+		.texthabilitaciones p {
+			font-size: 1.2rem;
+			letter-spacing: .15rem;
+			font-weight: bold;
+			vertical-align: center;
+			text-align: center;
+			width: 100%;
 			margin-top: 130px;
-			height: 100%;
-		
-			vertical-align: center;
-			text-align: center;
-			letter-spacing: .4rem;
-			color: rgb(76, 76, 76);
-		
-			font-size: 1.3REM;
+			height: auto;
 		}
-		
-
-
-		.texthabilitaciones p{
-			
-			height: 100%;
-			vertical-align: center;
-			text-align: center;
-			letter-spacing: .4rem;
-			color: rgb(76, 76, 76);
-			font-size: 1.8REM;
-		}
-		
-		
 
 		.habilitaciones {
-			margin-top: 20px;
+			margin-top: 15px;
 			margin-left: 5%;
 			vertical-align: middle;
 			width: 90%;
