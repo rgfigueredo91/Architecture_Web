@@ -72,7 +72,8 @@
 	font-size: 1rem;
 	margin-left: 15%;
 	text-align: justify;
-	margin-top: 10vh;
+	letter-spacing: .1rem;
+	margin-top: 20vh;
 	font-weight: 401;
 	line-height: 1.8rem;
 	font-family: "Source Sans Pro";
@@ -84,7 +85,7 @@
 
 
 	.text-container p{
-		font-size: .9rem;
+		font-size: 1rem;
 		width: 70%;
 		margin-left: 15%;
 		
@@ -103,7 +104,7 @@
 		font-size: .9rem;
 		margin-left: 10%;
 		text-align: justify;
-		margin-top: 10vh;
+		margin-top: 20vh;
 		font-weight: 401;
 		line-height: 1.8rem;
 		font-family: "Source Sans Pro";
@@ -111,6 +112,7 @@
 
 	
 .text2-fortaleza {
+	margin-top: 15vh;
 	text-align: center;
 	width: 30%;
 	display: flex;
@@ -160,7 +162,7 @@
 	}
 .text-container p{
 	
-	font-size: 17px;
+	font-size: 15px;
 	margin-left: 0px;
 	margin-left: 5%;
 	width: 90%;

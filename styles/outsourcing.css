@@ -1,143 +1,43 @@
-.text-outsourcing-container{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		background-color: #f0f0f0;
-		height: 40vh;
-		text-align: center;
-}
-
-	
-.text-outsourcing-container p{
-	font-size: 1.15rem;
-	font-weight: 401;
-	line-height: 2rem;
-	margin-left: 25%;
-	text-align: center;
-	width: 50%;
-	vertical-align: middle;
-	color: #555455;
-	letter-spacing: .15rem;
-	font-family: "Source Sans Pro";
-}
-
-
-.text2-outsourcing{
-	text-align: center;
-	width: 40%;
+.text-outsourcing {
+	margin-left: 5%;
+	width: 60%;
+	margin-top: 5%;
 	display: flex;
 	flex-direction: column;
-}
-
-.subtitle-outsourcing{
-	overflow-y: hidden;
-}
-
-.subtitle-outsourcing p{
-	
-	margin-top: 10vh;
-	font-weight: 900;
-	line-height: 2rem;
-	letter-spacing: .18rem;
-	font-family: "Source Sans Pro";
-}
-
-.outsourcing-list{
-	overflow-y: hidden;
-	margin-left: 30%;
-	width: 40%;
-}
-
-.outsourcing-list ul li{
-	line-height: 2.4rem;
-	text-align: left;
-	list-style-type: none;
-}
-
-.outsourcing{
-	text-align: center;
-	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
-	width: 100%;
-	height: 60vh;
+	height: 60%;
 }
 
-.text-outsourcing {
-	height: 100%;
-	width: 50%;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.text-outsourcing p{
-	margin-top: 3.5vh;
-	margin-left: 10vh;
-	text-align: justify;
-	
-	font-weight: 401;
-
-	font-family: "Source Sans Pro";
-}
-
-
-
-
-
-
-	/*--tablet responsive--*/
-	@media only screen and (max-width: 1500px) and (min-width: 700px)  {
-
-		.text-outsourcing-container{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			background-color: #f0f0f0;
-			height: 40vh;
-			text-align: center;
-	}
-	
-		
-	.text-outsourcing-container p{
-		font-size: 1.15rem;
-		font-weight: 401;
-		line-height: 2rem;
-		margin-left: 18%;
-		text-align: center;
-		width: 65%;
-		vertical-align: middle;
-		color: #555455;
-		letter-spacing: .1rem;
-		font-family: "Source Sans Pro";
-	}
+@media only screen and (max-width: 1200px) and (min-width: 800px)  {
 
 	.text-outsourcing {
-		margin-top: 5vh;
-		overflow-y: hidden;
+		margin-left: 5%;
+		width: 60%;
+		margin-top: 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 60%;
+	}
 
-		height: 90%;
-		width: 65%;
-		
+
+}
+
+	
+@media only screen and (max-width: 800px) {
+
+	.text-outsourcing {
+		margin-left: 5%;
+		width: 90%;
+		margin-top: 5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 80%;
 	}
 
 	.text-outsourcing p{
-	
-		margin-top: 1vh;
+		margin-top: 20px;
 	}
-
 	
-	
-
-	}
-
-
-
-	
-	
-	/*--mobile responsive--*/
-	
-	@media only screen and (max-width: 700px) {
-
-
-	
-	}	
+}	
