@@ -124,7 +124,7 @@ html {
 	flex-direction: column;
 	justify-content: space-around;
 	color: black;
-	height: 100VH;
+	height: 100vh;
 	position: fixed;
 	width: 100%;
 	font-size: 2rem;
@@ -144,8 +144,9 @@ html {
 
 .image-container-two img {
 	width: 100%;
-object-fit: cover;
+	object-fit: cover;
 	height: 100vh;
+	z-index: -10;
 	
 }
 
