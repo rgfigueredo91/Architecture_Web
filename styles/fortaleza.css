@@ -71,7 +71,7 @@
 .text-fortaleza p{
 	font-size: 1rem;
 	margin-left: 15%;
-	text-align: justify;
+	text-align: center;
 	letter-spacing: .1rem;
 	margin-top: 20vh;
 	font-weight: 401;
@@ -103,7 +103,7 @@
 	.text-fortaleza p{
 		font-size: .9rem;
 		margin-left: 10%;
-		text-align: justify;
+		text-align: center;
 		margin-top: 20vh;
 		font-weight: 401;
 		line-height: 1.8rem;
@@ -166,6 +166,7 @@
 	margin-left: 0px;
 	margin-left: 5%;
 	width: 90%;
+	line-height: 1.43rem;
 
 }
 
@@ -194,7 +195,7 @@
 	font-size: 15px;
 	margin-left: 5%;
 	width: 90%;
-	text-align: justify;
+	text-align: center;
 	margin-top: 30px;
 	font-weight: 401;
 	line-height: 1.4rem;
