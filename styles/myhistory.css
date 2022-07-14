@@ -7,28 +7,31 @@
 
 .myhistoryresume {
 	background-color: #f0f0f0;
-	margin-bottom: 1vh;
-	height: 60vh;
+
+	height: 40vh;
 	justify-content: center;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }		
 
 .historyparagraph{
-	width: 40%;
+	width: 100%;
 }
 
 .historyparagraph p{
-	margin-right: 30%;
-	text-align: justify;
-	margin-top: 8vh;
+	font-size: 1rem;
+	font-weight: 401;
+	line-height: 30px;
+	margin-left: 25%;
+	text-align: center;
+	width: 50%;
+	vertical-align: middle;
+	color: #555455;
+	letter-spacing: .15rem;
+	font-family: "Source Sans Pro";
+	
 } 
 
-.historyimage img{
-	margin-left: 10vh;
-	margin-top: 8vh;
-	height: 70%;
-}
 
 .myhistorycontainer2{
 	overflow-y: hidden;
