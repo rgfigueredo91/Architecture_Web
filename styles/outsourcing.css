@@ -10,7 +10,7 @@
 	height: 60%;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 800px)  {
+@media only screen and (max-width: 1200px) and (min-width: 701px)  {
 
 	.text-outsourcing {
 		margin-left: 5%;
@@ -26,7 +26,7 @@
 }
 
 	
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
 	#outsourcing {
 		margin-top: 30px;

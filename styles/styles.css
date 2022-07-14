@@ -219,13 +219,14 @@ html {
 
 
 /*--tablet responsive--*/
-@media only screen and (max-width: 1200px) and (min-width: 700px)  {
+@media only screen and (max-width: 1200px) and (min-width: 701px)  {
 
 	.overlay a {font-size: 20px}
 	.overlay .closebtn {
 	font-size: 40px;
 	top: 15px;
 	right: 35px;
+
 
 	}
 
@@ -238,6 +239,16 @@ html {
 	
 @media only screen and (max-width: 700px) {
 
+
+	
+
+.image-container-two img {
+	width: 100%;
+	object-fit: cover;
+	height: 100vh;
+	z-index: -10;
+	
+}
 
 	
 	}	
